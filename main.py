@@ -1,8 +1,9 @@
 # esercizio 2
 from operazioni import * 
 
+op_list = ["+","-","*","/"]
 while True:
-    oper = input ("operazione (+, -, *, /, x=fine) ")
+    oper = input ("operazione "+str(op_list)+", x=fine) ")
     if oper != "x":
         if oper == "+" or oper == "-" or oper == "*" or oper == "/":
             num1 = input ("numero 1 ")

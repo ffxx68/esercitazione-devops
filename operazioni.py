@@ -1,11 +1,11 @@
-def diff(x, y):
-    return x-y
+def diff(x_val, y_val):
+    return x_val-y_val
 
-def somma(x, y):
-    return x+y
+def somma(x_val, y_val):
+    return x_val+y_val
 
-def moltip(x, y):
-    return x*y
+def moltip(x_val, y_val):
+    return x_val*y_val
 
-def divis(x, y):
-    return x/y
+def divis(x_val, y_val):
+    return x_val/y_val
